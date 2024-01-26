@@ -1,0 +1,14 @@
+errors:
+    404:
+        code: '404'
+        name: 'Không Tìm Thấy Trang'
+pages:
+    /:
+        head:
+            title: 'Trang Chủ'
+            description: 'Xin chào bạn'
+        hello: 'Xin Chào'
+    /test:
+        head:
+            title: 'Test'
+        welcome: 'Đây là trang thử nghiệm'

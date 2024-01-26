@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
+
+        <title>%APP_NAME%</title>
+
+        <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
+
+        <script>
+            const theme = localStorage.getItem('vueuse-color-scheme') || 'auto'
+            const prefersDark = window?.matchMedia?.('(prefers-color-scheme: dark)').matches
+
+            if (theme === 'dark' || (prefersDark && theme !== 'light')) {
+                document.documentElement.classList.add('dark')
+            } else {
+                document.documentElement.classList.remove('dark')
+            }
+        </script>
+
+        <script src="/src/main.ts" type="module"></script>
+    </head>
+
+    <body>
+        <noscript>
+            <div style="text-align: center; color: red; font-weight: bold; font-size: larger; margin: 1rem">This website requires JavaScript to run. Please enable JavaScript to continue.</div>
+        </noscript>
+
+        <div id="app"></div>
+    </body>
+</html>

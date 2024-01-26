@@ -1,0 +1,10 @@
+html,
+body,
+#app {
+    --at-apply: size-full overflow-x-hidden overflow-y-auto;
+}
+
+body {
+    --at-apply: antialiased font-sans tracking-tight leading-relaxed;
+    --at-apply: bg text;
+}

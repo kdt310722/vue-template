@@ -1,0 +1,14 @@
+errors:
+    404:
+        code: '404'
+        name: 'Not Found'
+pages:
+    /:
+        head:
+            title: 'Home'
+            description: 'Welcome to my website'
+        hello: 'Hello World'
+    /test:
+        head:
+            title: 'Test'
+        welcome: 'Welcome to the test page'
