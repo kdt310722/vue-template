@@ -2,6 +2,11 @@ errors:
     404:
         code: '404'
         name: 'Not Found'
+buttons:
+    color-mode:
+        auto: 'Auto'
+        light: 'Light'
+        dark: 'Dark'
 pages:
     /:
         head:

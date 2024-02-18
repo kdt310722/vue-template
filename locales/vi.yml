@@ -2,6 +2,11 @@ errors:
     404:
         code: '404'
         name: 'Không Tìm Thấy Trang'
+buttons:
+    color-mode:
+        auto: 'Hệ Thống'
+        light: 'Sáng'
+        dark: 'Tối'
 pages:
     /:
         head:

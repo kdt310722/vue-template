@@ -1,22 +1,26 @@
 <script lang="ts" setup>
-    const { store } = useColorMode<string>()
-    const { state, next } = useCycleList(['dark', 'light', 'auto'], { initialValue: store })
+    import type { BasicColorSchema } from '@vueuse/core'
 
-    const colorModeIcon = computed(() => {
-        if (store.value === 'auto') {
-            return 'i-mdi-laptop'
-        }
+    const modes: BasicColorSchema[] = ['auto', 'light', 'dark']
 
-        return store.value === 'dark' ? 'i-mdi-weather-night' : 'i-mdi-weather-sunny'
-    })
+    const icons = {
+        auto: 'i-mdi-laptop',
+        light: 'i-mdi-weather-sunny',
+        dark: 'i-mdi-weather-night',
+    }
 
-    watch(state, (value) => {
+    const { t } = useI18n()
+    const { store } = useColorMode()
+    const { state, next } = useCycleList(modes, { initialValue: store })
+    const colorModeIcon = computed(() => icons[store.value])
+
+    watch(state, (value: BasicColorSchema) => {
         store.value = value
     })
 </script>
 
 <template>
-    <Button shape="circle" size="sm" type="button" variant="ghost" @click="() => next()">
+    <Button :title="t(`buttons.color-mode.${store}`)" shape="circle" size="sm" type="button" variant="ghost" @click="() => next()">
         <i :class="colorModeIcon" class="size-6" />
     </Button>
 </template>
