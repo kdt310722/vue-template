@@ -1,3 +1,4 @@
+import { isString } from '@kdt310722/utils/string'
 import { usePreferredDark } from '@vueuse/core'
 import { useHead } from '@vueuse/head'
 import { useI18n } from 'vue-i18n'
@@ -13,11 +14,11 @@ export function usePageHead() {
             return i18n.te(route.meta.head[key]) ? i18n.t(route.meta.head[key]) : route.meta.head[key]
         }
 
-        const translationKey = `pages.${route.name}.head.${key}`
-
-        if (!route.name) {
+        if (!route.name || !isString(route.name)) {
             return defaultValue
         }
+
+        const translationKey = `pages.${route.name}.head.${key}`
 
         return i18n.te(translationKey) ? i18n.t(translationKey) : defaultValue
     }
