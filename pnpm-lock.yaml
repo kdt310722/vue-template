@@ -122,8 +122,8 @@ devDependencies:
     specifier: ^2.7.10
     version: 2.7.10(@vueuse/core@10.8.0)(typescript@5.3.3)(vite@5.1.4)(vue@3.4.19)
   unplugin-vue-router:
-    specifier: ^0.8.3
-    version: 0.8.3(vue-router@4.3.0)(vue@3.4.19)
+    specifier: ^0.8.4
+    version: 0.8.4(vue-router@4.3.0)(vue@3.4.19)
   vite:
     specifier: ^5.1.4
     version: 5.1.4(@types/node@20.11.20)(lightningcss@1.24.0)
@@ -8763,8 +8763,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-vue-router@0.8.3(vue-router@4.3.0)(vue@3.4.19):
-    resolution: {integrity: sha512-I0HXIGUrdzwIKQ9YEyI3HEMpHsWs/V7KaEqcwXYREABhrRT6Hfmgz/em+2CgbbJ5IFMiWLBYIJ2+6fZGKuJluw==}
+  /unplugin-vue-router@0.8.4(vue-router@4.3.0)(vue@3.4.19):
+    resolution: {integrity: sha512-BdXzOEh7ta6v7qmTxkNcBqjeYBQN2LR34AqvSDLsfjlGd0CgV4qhue3T5btHiZK2EGtsdRb7i9f9CpxMLSnXzw==}
     peerDependencies:
       vue-router: ^4.3.0
     peerDependenciesMeta:
