@@ -1,5 +1,5 @@
 <template>
-    <header class="*ctn *fcc flex-col py-6 space-y-6">
+    <header class="*fcc *ctn flex-col py-6 space-y-6">
         <img alt="Vue App" class="size-16" src="@/assets/images/logo.svg">
         <h1 class="text-xl font-medium">Vite + Typescript + Vue</h1>
     </header>
