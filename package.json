@@ -60,7 +60,7 @@
         "unplugin-vue-router": "^0.8.4",
         "vite": "^5.1.4",
         "vite-bundle-visualizer": "^1.0.1",
-        "vite-plugin-mkcert": "^1.17.3",
+        "vite-plugin-mkcert": "^1.17.4",
         "vite-plugin-vue-devtools": "^7.0.15",
         "vite-plugin-vue-layouts": "^0.11.0",
         "vite-plugin-webfont-dl": "^3.9.1",

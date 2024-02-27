@@ -131,8 +131,8 @@ devDependencies:
     specifier: ^1.0.1
     version: 1.0.1
   vite-plugin-mkcert:
-    specifier: ^1.17.3
-    version: 1.17.3(vite@5.1.4)
+    specifier: ^1.17.4
+    version: 1.17.4(vite@5.1.4)
   vite-plugin-vue-devtools:
     specifier: ^7.0.15
     version: 7.0.15(vite@5.1.4)(vue@3.4.20)
@@ -8941,8 +8941,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-mkcert@1.17.3(vite@5.1.4):
-    resolution: {integrity: sha512-C8iLz4Su4kEyJb1GdlGIMfKkYMqfH5qvhqVP1x/hrc+1mo9GOzqU88mevvP5epgoqawkhVpcQVQ+HTFXsRuC0g==}
+  /vite-plugin-mkcert@1.17.4(vite@5.1.4):
+    resolution: {integrity: sha512-P/B/tXhsUdpFO4Go1f2obu8WL3xxA3lbsbz4YzflbWfqWl15uwFiXaiCCBztJu1f4WnilrdXYihGrGT9jU743A==}
     engines: {node: '>=v16.7.0'}
     peerDependencies:
       vite: '>=3'
