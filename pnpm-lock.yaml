@@ -41,8 +41,8 @@ devDependencies:
     specifier: ^2.2.190
     version: 2.2.190
   '@intlify/unplugin-vue-i18n':
-    specifier: ^3.0.0
-    version: 3.0.0(vue-i18n@9.10.1)
+    specifier: ^3.0.1
+    version: 3.0.1(vue-i18n@9.10.1)
   '@julr/unocss-preset-forms':
     specifier: ^0.1.0
     version: 0.1.0(unocss@0.58.5)
@@ -1087,8 +1087,8 @@ packages:
     resolution: {integrity: sha512-liyH3UMoglHBUn70iCYcy9CQlInx/lp50W2aeSxqqrvmG+LDj/Jj7tBJhBoQL4fECkldGhbmW0g2ommHfL6Wmw==}
     engines: {node: '>= 16'}
 
-  /@intlify/unplugin-vue-i18n@3.0.0(vue-i18n@9.10.1):
-    resolution: {integrity: sha512-xyZCWnwr3aPYtQsLBEc9gXy2DVc0qJoRPjc3ntSIsvVvERSmiRYw1w0VGiltuTveNleCBHhJ8/gJIxIVqj1olA==}
+  /@intlify/unplugin-vue-i18n@3.0.1(vue-i18n@9.10.1):
+    resolution: {integrity: sha512-q1zJhA/WpoLBzAAuKA5/AEp0e+bMOM10ll/HxT4g1VAw/9JhC4TTobP9KobKH90JMZ4U2daLFlYQfKNd29lpqw==}
     engines: {node: '>= 14.16'}
     peerDependencies:
       petite-vue-i18n: '*'
