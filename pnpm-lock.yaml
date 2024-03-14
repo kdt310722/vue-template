@@ -128,8 +128,8 @@ devDependencies:
     specifier: ^5.1.6
     version: 5.1.6(@types/node@20.11.27)(lightningcss@1.24.0)
   vite-bundle-visualizer:
-    specifier: ^1.0.1
-    version: 1.0.1
+    specifier: ^1.1.0
+    version: 1.1.0
   vite-plugin-mkcert:
     specifier: ^1.17.4
     version: 1.17.4(vite@5.1.6)
@@ -8798,8 +8798,9 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-bundle-visualizer@1.0.1:
-    resolution: {integrity: sha512-JdUu5viGyw7K1HMstqaAN7y1rnNz93srGeF7FJgFCzM7NL1nH/QlpywDA296qv/KjPPPsq60mOJhtXddikVKSA==}
+  /vite-bundle-visualizer@1.1.0:
+    resolution: {integrity: sha512-cmi5OuS7Eta5keTJmCTEbBBA7gOsUQ4K44W5dbsP+n/X0GIilIIFbJeXF120MQpTxdiZ/GIx4A9zkPEcKpPAog==}
+    engines: {node: ^18.19.0 || >=20.6.0}
     hasBin: true
     dependencies:
       cac: 6.7.14

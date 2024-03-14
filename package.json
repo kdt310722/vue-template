@@ -59,7 +59,7 @@
         "unplugin-vue-macros": "^2.7.10",
         "unplugin-vue-router": "^0.8.4",
         "vite": "^5.1.6",
-        "vite-bundle-visualizer": "^1.0.1",
+        "vite-bundle-visualizer": "^1.1.0",
         "vite-plugin-mkcert": "^1.17.4",
         "vite-plugin-vue-devtools": "^7.0.17",
         "vite-plugin-vue-layouts": "^0.11.0",
