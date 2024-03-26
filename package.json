@@ -30,7 +30,7 @@
         "@commitlint/cli": "^19.1.0",
         "@commitlint/config-conventional": "^19.1.0",
         "@iconify/json": "^2.2.192",
-        "@intlify/unplugin-vue-i18n": "^3.0.1",
+        "@intlify/unplugin-vue-i18n": "^4.0.0",
         "@julr/unocss-preset-forms": "^0.1.0",
         "@julr/vite-plugin-validate-env": "^1.1.1",
         "@kdt310722/eslint-config": "^0.0.5",
