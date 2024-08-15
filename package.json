@@ -41,7 +41,7 @@
         "@vitejs/plugin-vue-jsx": "^4.0.0",
         "@vue-macros/volar": "^0.18.11",
         "@vue/compiler-sfc": "^3.4.21",
-        "@vueuse/core": "^10.9.0",
+        "@vueuse/core": "^11.0.0",
         "@vueuse/head": "^2.0.0",
         "eslint": "^8.57.0",
         "lightningcss": "^1.24.0",
